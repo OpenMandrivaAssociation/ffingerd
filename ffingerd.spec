@@ -11,6 +11,7 @@ Source: %{fullname}.tar.bz2
 Group: Networking/Other
 URL: http://www.fefe.de/ffingerd/
 License: GPL
+BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 Fefe's Finger Daemon is a secure fingerd which doesn't run as root,
