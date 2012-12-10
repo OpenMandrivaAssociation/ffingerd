@@ -79,3 +79,35 @@ fi
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.28-11mdv2011.0
++ Revision: 618279
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.28-10mdv2010.0
++ Revision: 428723
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.28-9mdv2009.0
++ Revision: 245118
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.28-7mdv2008.1
++ Revision: 136415
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Aug 08 2006 Lenny Cartier <lenny@mandriva.com> 1.28-7mdv2007.0
+- rebuild
+
+* Wed Apr 20 2005 Lenny Cartier <lenny@mandriva.com> 1.28-6mdk
+- rebuild
+
+* Fri Feb 20 2004 Lenny Cartier <lenny@mandrakesoft.com> 1.28-5mdk
+- rebuild
+
