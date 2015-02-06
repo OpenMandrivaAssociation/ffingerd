@@ -1,6 +1,6 @@
 %define fullname %{name}-%{version}
 %define version 1.28
-%define release %mkrel 11
+%define release 12
 %define name ffingerd
 
 Name: %{name}
