@@ -9,7 +9,7 @@ Version: %{version}
 Release: %{release}
 Source: %{fullname}.tar.bz2
 Group: Networking/Other
-URL: http://www.fefe.de/ffingerd/
+URL: https://www.fefe.de/ffingerd/
 License: GPL
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
