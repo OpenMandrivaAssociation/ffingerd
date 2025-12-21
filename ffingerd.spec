@@ -13,6 +13,11 @@ URL: https://www.fefe.de/ffingerd/
 License: GPL
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Fefe's Finger Daemon is a secure fingerd which doesn't run as root,
 doesn't give away vital info about your system, and does syslogging.
